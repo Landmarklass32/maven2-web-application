@@ -95,19 +95,19 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.80.131.122:8181/mylandmarktech32/repository/aws-release/</url>
+	      <url>http://54.89.57.9:8181/mylandmarktech32/repository/awsdecla-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.80.131.122:8181/mylandmarktech32/repository/aws-snapshot/</url>
+	      <url>http://54.89.57.9:8181/mylandmarktech32/repository/awsdeclare-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>aws</finalName>
+		<finalName>aws-prod</finalName>
 		
 		<plugins>
 			<plugin>
