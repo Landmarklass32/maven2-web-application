@@ -6,7 +6,7 @@
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
 	
-	<version>0.0.1-</version> 
+	<version>0.0.2-</version> 
 	
 	<name>maven-web-application</name>
 
@@ -95,19 +95,19 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://54.89.57.9:8181/mylandmarktech32/repository/awsdecla-release/</url>
+	      <url>http://44.211.143.16:8181/mylandmarktech32/repository/nginx-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.89.57.9:8181/mylandmarktech32/repository/awsdeclare-snapshot/</url>
+	      <url>http://44.211.143.16:8181/mylandmarktech32/repository/nginx-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>tesla-webapp</finalName>
+		<finalName>nginx-webapp</finalName>
 		
 		<plugins>
 			<plugin>
